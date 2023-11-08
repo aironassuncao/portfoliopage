@@ -1,27 +1,44 @@
 html {
-    color: azure;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
 }
 
 
 body {
-    background-color: rgb(1, 6, 15);
-    color: whitesmoke
+    background-color: black;
+    color: pink;
+    background-image: url('background.jpg');
+    height:100%;
+    width:100%;
+    background-repeat:no-repeat;
+    background-size:cover;
+    text-shadow: 0 0 20px 5px fuchsia;
+}
+      
     
+body p {
+    padding: 5px;
+    margin: auto;
+}
+
+body ul li a {
+    justify-content: center;
+    text-align: center;
+    /*position: fixed;*/
 }
 
 h1 {
 
-    color: rgb(248, 247, 232);
+    color: white;
+
 }
 
 h2 {
-    color: goldenrod
-}
+color: plum;}
 
 h3 {
-
-    color: gold;
+    justify-content: center;
+    text-align: center;
+    color: palevioletred;
 }
 
 nav ul {
@@ -35,16 +52,30 @@ nav ul {
 
 }
 
-a:hover {
-    color: gold;
+a:active {
+    text-shadow: 0 0 20px 5px fuchsia;
+    color: rgb(255, 204, 255); 
+    box-shadow: 0 0 10px 5px rgb(223, 172, 238);
+
 }
+
 
 a {
-    color: white;
-    text-decoration: none;
-
+    color: #fc9ff1;
+    text-shadow: 0 0 5px #ff00ff, 0 0 15px #ff00ff, 0 0 25px #ff00ff; 
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
 }
-
+  
+  
+  a:hover {
+    color: pink;
+    text-shadow: 0 0 5px fuchsia, 0 0 15px pink, 0 0 25px white;
+}
+  
+  
 img {
     height: 200px;
     width: 200px;
@@ -52,7 +83,7 @@ img {
 
 }
 
-footer {
+footer  {
     display: flex;
     justify-content: center;
     
