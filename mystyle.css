@@ -3,7 +3,8 @@ body {
     padding: 0;
     font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
     background: linear-gradient(135deg, #1DA1F2, #0D8ECF);
-    color: #333;
+    color: #1f2226;
+    text-decoration: solid;
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -11,9 +12,9 @@ body {
 }
 
 #container {
-    width: 400px;
+    height: auto;
     text-align: center;
-    margin-top: 50px;
+    margin-top: 200px;
     background: rgba(255, 255, 255, 0.8);
     padding: 30px;
     border-radius: 15px;
