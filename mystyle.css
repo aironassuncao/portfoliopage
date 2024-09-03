@@ -28,6 +28,8 @@ body {
     padding: 10px;
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.2);
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    width: 200px; /* Define um tamanho fixo */
+    height: 200px; /* Define um tamanho fixo */
 }
 
 #profile:hover {
@@ -76,4 +78,29 @@ body {
 
 #about p {
     line-height: 1.6;
+}
+
+/* Media Queries para dispositivos móveis */
+@media (max-width: 600px) {
+    #profile {
+        width: 150px; /* Ajusta o tamanho da imagem em telas menores */
+        height: 150px; /* Ajusta o tamanho da imagem em telas menores */
+    }
+
+    #container {
+        padding: 20px; /* Reduz o padding do container em telas menores */
+    }
+
+    #about {
+        padding: 15px; /* Reduz o padding da seção "about" em telas menores */
+    }
+
+    #socials {
+        gap: 10px; /* Reduz o espaçamento entre os ícones em telas menores */
+    }
+
+    #socials a img {
+        width: 80px; /* Ajusta o tamanho dos ícones em telas menores */
+        height: 80px; /* Ajusta o tamanho dos ícones em telas menores */
+    }
 }
