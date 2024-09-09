@@ -14,7 +14,7 @@ body {
 #container {
     height: auto;
     text-align: center;
-    margin-top: 200px;
+    margin-top: 400px;
     background: rgba(255, 255, 255, 0.8);
     padding: 30px;
     border-radius: 15px;
@@ -78,4 +78,27 @@ body {
 
 #about p {
     line-height: 1.6;
+}
+
+/* Estilização do botão de download */
+#download_section {
+    margin-top: 20px;
+}
+
+#download_button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #1DA1F2;
+    color: white;
+    font-size: 18px;
+    border-radius: 50px;
+    text-decoration: none;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s ease, transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+#download_button:hover {
+    background-color: #0D8ECF;
+    transform: translateY(-3px);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.3);
 }
